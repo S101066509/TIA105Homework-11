@@ -57,10 +57,10 @@ public class LottoTwo {
 
 		int[] table = new int[6];
 		int index = 0;
-		int Count = 0;
+		int count = 0;
 		int number;
 
-		while (Count < table.length) {
+		while (count < table.length) {
 
 			index = (int) (temp.length * Math.random() + 1);
 			number = temp[index];
@@ -74,8 +74,8 @@ public class LottoTwo {
 			}
 
 			if (!isDuplicate) {
-				table[Count] = number;
-				Count++;
+				table[count] = number;
+				count++;
 			}
 
 		}
