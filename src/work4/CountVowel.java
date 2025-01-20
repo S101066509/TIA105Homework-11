@@ -2,7 +2,7 @@ package work4;
 
 public class CountVowel {
 	public static void main(String[] args) {
-	
+
 		CountVowel a1 = new CountVowel();
 		String[] input = new String[] { "mercury", "venus", "earth", "mars", "jupiter", "saturn", "uranus", "neptune" };
 		System.out.println(a1.countVowel(input));
