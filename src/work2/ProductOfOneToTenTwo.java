@@ -5,6 +5,7 @@ public class ProductOfOneToTenTwo {
 		int i = 0,answer=1;
 		
 		while(i++<=9) {
+			System.out.println(i);
 			answer=answer*i;
 		}
 		System.out.println(answer);

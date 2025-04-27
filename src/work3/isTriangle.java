@@ -12,6 +12,7 @@ public class isTriangle {
 	// 兩邊長度相加大於第三邊
 	public void triangle_test() {
 		int[] tri = new int[3];
+	
 		Scanner sc = new Scanner(System.in);
 
 		System.out.println("請輸入三個整數");

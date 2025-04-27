@@ -9,7 +9,7 @@ public class CollectionTest {
 	public static void main(String[] args) {
 		CollectionTest a1 = new CollectionTest();
 		
-		Collection col1 = new ArrayList();
+		Collection<Object> col1 = new ArrayList<>();
 		Object Snoopy =new Object();
 		col1.add(100);
 		col1.add(3.14);
