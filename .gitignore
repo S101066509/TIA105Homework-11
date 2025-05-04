@@ -1,3 +1,4 @@
+<<<<<<< Upstream, based on branch 'master' of https://github.com/S101066509/TIA105Homework-11.git
 .settings/
 bin/
 .classpath
@@ -6,3 +7,13 @@ bin/
 *.idea
 *.iml
 .project
+=======
+.settings/
+bin/
+.classpath
+.project
+.DS_Store
+*.idea
+*.iml
+.project
+>>>>>>> ecca038 新增部分資料
